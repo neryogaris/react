@@ -10,12 +10,12 @@ export const actionCodeSettingsVerification = {
   url:
     process.env.NODE_ENV === 'development'
       ? 'http://localhost:3000/'
-      : 'https://carbuyshop1617.vercel.app/',
+      : 'https://dalmassohnos.vercel.app/',
 };
 
 export const actionCodeSettingsForgotPassword = {
   url:
     process.env.NODE_ENV === 'development'
       ? 'http://localhost:3000/login'
-      : 'https://carbuyshop1617.vercel.app/login',
+      : 'https://dalmassohnos.vercel.app/login',
 };
